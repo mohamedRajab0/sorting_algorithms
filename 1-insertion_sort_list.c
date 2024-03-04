@@ -42,11 +42,11 @@ void insertion_sort_list(listint_t **list)
 	{
 	swap(node2->prev, node2);
 	if (!node2->prev)
-	*list = node2;
+		*list = node2;
 	print_list((const listint_t *) *list);
 	}
 	else
-	node2 = node2->prev;
+		node2 = node2->prev;
 	}
 	}
 }
